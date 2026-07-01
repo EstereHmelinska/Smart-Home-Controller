@@ -1,0 +1,77 @@
+2026-07-01 21:47:38 DEBUG c.b.s.controller.HomeController - Received command for device 'LIGHT_01': LIGHT_01 TURN_ON
+2026-07-01 21:47:38 INFO  c.b.s.controller.HomeController - Command executed successfully for device 'LIGHT_01'
+2026-07-01 21:47:38 DEBUG c.b.s.controller.HomeController - Received command for device 'LIGHT_02': LIGHT_02 TURN_ON
+2026-07-01 21:47:38 INFO  c.b.s.controller.HomeController - Command executed successfully for device 'LIGHT_02'
+2026-07-01 21:47:38 DEBUG c.b.s.controller.HomeController - Received command for device 'THERMO_01': THERMO_01 SET_TEMP 22.5
+2026-07-01 21:47:38 INFO  c.b.s.controller.HomeController - Command executed successfully for device 'THERMO_01'
+2026-07-01 21:47:38 DEBUG c.b.s.controller.HomeController - Received command for device 'LIGHT_01': LIGHT_01 SET_BRIGHTNESS 80
+2026-07-01 21:47:38 INFO  c.b.s.controller.HomeController - Command executed successfully for device 'LIGHT_01'
+2026-07-01 21:47:38 DEBUG c.b.s.controller.HomeController - Received command for device 'LIGHT_03': LIGHT_03 TURN_ON
+2026-07-01 21:47:38 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline. Command skipped.
+2026-07-01 21:47:38 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline. Command skipped.
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:95)
+	at com.bootcamp.smarthome.Main.main(Main.java:64)
+2026-07-01 21:47:38 DEBUG c.b.s.controller.HomeController - Received command for device 'LOCK_02': LOCK_02 UNLOCK
+2026-07-01 21:47:38 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: PIN cannot be null.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:36)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:58)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:100)
+	at com.bootcamp.smarthome.Main.main(Main.java:83)
+2026-07-01 21:47:38 DEBUG c.b.s.controller.HomeController - Received command for device 'SENSOR_99': SENSOR_99 TURN_ON
+2026-07-01 22:04:23 DEBUG c.b.s.controller.HomeController - Received command for device 'LIGHT_01': LIGHT_01 TURN_ON
+2026-07-01 22:04:23 INFO  c.b.s.controller.HomeController - Command executed successfully for device 'LIGHT_01'
+2026-07-01 22:04:23 DEBUG c.b.s.controller.HomeController - Received command for device 'LIGHT_02': LIGHT_02 TURN_ON
+2026-07-01 22:04:23 INFO  c.b.s.controller.HomeController - Command executed successfully for device 'LIGHT_02'
+2026-07-01 22:04:23 DEBUG c.b.s.controller.HomeController - Received command for device 'THERMO_01': THERMO_01 SET_TEMP 22.5
+2026-07-01 22:04:23 INFO  c.b.s.controller.HomeController - Command executed successfully for device 'THERMO_01'
+2026-07-01 22:04:23 DEBUG c.b.s.controller.HomeController - Received command for device 'LIGHT_01': LIGHT_01 SET_BRIGHTNESS 80
+2026-07-01 22:04:23 INFO  c.b.s.controller.HomeController - Command executed successfully for device 'LIGHT_01'
+2026-07-01 22:04:23 DEBUG c.b.s.controller.HomeController - Received command for device 'LIGHT_03': LIGHT_03 TURN_ON
+2026-07-01 22:04:23 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline. Command skipped.
+2026-07-01 22:04:23 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline. Command skipped.
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:95)
+	at com.bootcamp.smarthome.Main.main(Main.java:64)
+2026-07-01 22:04:23 DEBUG c.b.s.controller.HomeController - Received command for device 'LOCK_02': LOCK_02 UNLOCK
+2026-07-01 22:04:23 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: PIN cannot be null.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:36)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:58)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:100)
+	at com.bootcamp.smarthome.Main.main(Main.java:83)
+2026-07-01 22:04:23 DEBUG c.b.s.controller.HomeController - Received command for device 'SENSOR_99': SENSOR_99 TURN_ON
+2026-07-01 22:08:18 DEBUG c.b.s.controller.HomeController - Received command for device 'LIGHT_01': LIGHT_01 TURN_ON
+2026-07-01 22:08:18 INFO  c.b.s.controller.HomeController - Command executed successfully for device 'LIGHT_01'
+2026-07-01 22:08:18 DEBUG c.b.s.controller.HomeController - Received command for device 'LIGHT_02': LIGHT_02 TURN_ON
+2026-07-01 22:08:18 INFO  c.b.s.controller.HomeController - Command executed successfully for device 'LIGHT_02'
+2026-07-01 22:08:18 DEBUG c.b.s.controller.HomeController - Received command for device 'THERMO_01': THERMO_01 SET_TEMP 22.5
+2026-07-01 22:08:18 INFO  c.b.s.controller.HomeController - Command executed successfully for device 'THERMO_01'
+2026-07-01 22:08:18 DEBUG c.b.s.controller.HomeController - Received command for device 'LIGHT_01': LIGHT_01 SET_BRIGHTNESS 80
+2026-07-01 22:08:18 INFO  c.b.s.controller.HomeController - Command executed successfully for device 'LIGHT_01'
+2026-07-01 22:08:18 DEBUG c.b.s.controller.HomeController - Received command for device 'LIGHT_03': LIGHT_03 TURN_ON
+2026-07-01 22:08:18 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline. Command skipped.
+2026-07-01 22:08:18 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline. Command skipped.
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:95)
+	at com.bootcamp.smarthome.Main.main(Main.java:65)
+2026-07-01 22:08:18 DEBUG c.b.s.controller.HomeController - Received command for device 'LOCK_02': LOCK_02 UNLOCK
+2026-07-01 22:08:18 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: PIN cannot be null.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:36)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:58)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:100)
+	at com.bootcamp.smarthome.Main.main(Main.java:84)
+2026-07-01 22:08:18 DEBUG c.b.s.controller.HomeController - Received command for device 'SENSOR_99': SENSOR_99 TURN_ON
+2026-07-01 22:09:18 WARN  c.b.s.controller.HomeController - Device 'LIGHT_03' is offline. Command skipped.
+2026-07-01 22:09:18 ERROR c.b.s.controller.HomeController - Command 'LIGHT_03 TURN_ON' failed for device 'LIGHT_03'
+com.bootcamp.smarthome.exception.DeviceOfflineException: Device 'LIGHT_03' is offline. Command skipped.
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:95)
+	at com.bootcamp.smarthome.Main.main(Main.java:65)
+2026-07-01 22:09:18 ERROR c.b.s.controller.HomeController - Command 'LOCK_02 UNLOCK' failed for device 'LOCK_02'
+com.bootcamp.smarthome.exception.InvalidCommandException: PIN cannot be null.
+	at com.bootcamp.smarthome.device.SmartLock.validatePin(SmartLock.java:36)
+	at com.bootcamp.smarthome.device.SmartLock.executeCommand(SmartLock.java:58)
+	at com.bootcamp.smarthome.controller.HomeController.sendCommand(HomeController.java:100)
+	at com.bootcamp.smarthome.Main.main(Main.java:84)
